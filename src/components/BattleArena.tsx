@@ -20,7 +20,7 @@ const BattleArena: React.FC = () => {
 
     try {
       // Generate two different random Pokémon
-      let pokemon1Name = getRandomPokemonName();
+      const pokemon1Name = getRandomPokemonName();
       let pokemon2Name = getRandomPokemonName();
 
       // Ensure we don't get the same Pokémon twice
